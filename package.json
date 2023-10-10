@@ -20,7 +20,7 @@
     "format": "prettier --write \"src/**/*.{html,js,jsx}\"",
     "watch:storybook": "npx tailwindcss -i ./src/App.css -o ./public/output.css --watch",
     "build:storybook": "npx tailwindcss -i ./src/App.css -o ./public/output.css",
-    "storybook": "watch:storybook & storybook dev -p 6006",
+    "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
     "prepare": "husky install"
   },
