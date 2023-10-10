@@ -1,7 +1,12 @@
 import "./App.css";
+import Canvas from "./components/Canvas.jsx";
 
 function App() {
-  return <h1 className="text-lg text-center text-black">Test</h1>;
+  return (
+    <>
+      <Canvas />
+    </>
+  );
 }
 
 export default App;
