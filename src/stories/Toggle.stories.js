@@ -11,4 +11,10 @@ export default {
   },
 };
 
-export const Primary = {};
+export const Primary = {
+  args: {
+    text: "Toggle Me!",
+    isChecked: false,
+    toggleChecked: () => console.log("Toggled"),
+  },
+};
