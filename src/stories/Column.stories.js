@@ -9,4 +9,18 @@ export default {
   },
 };
 
-export const Primary = {};
+export const Primary = {
+  args: {
+    title: "Column title",
+    tasks: [
+      {
+        title: "I am a title",
+        body: "I am a test body",
+      },
+      {
+        title: "I am a second test title",
+        body: "I am a second test body",
+      },
+    ],
+  },
+};

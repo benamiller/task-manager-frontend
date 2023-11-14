@@ -11,8 +11,8 @@ export default {
 
 export const Primary = {
   args: {
-    project:
+    title:
       "Project Jonji, the ultimate project of life with too many characters",
-    title: "Create a simple tile",
+    body: "Create a simple tile",
   },
 };
